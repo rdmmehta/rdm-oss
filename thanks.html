@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+  <meta name="description" content="Based in Chandigarh, India, Off Street Studios is Web Development & Online Marketing Consultant focused on usability, browser compatibility, and Web standards." />
+
+  <title>OffStreetStudios - Web Design - Web Development - Responsive Design - Smartphones - Tablets - Chandigarh, India</title>
+ 
+  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!-- Google maps -->
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script type="text/javascript">
+      window.onload = function() {
+          initialize();
+      } 
+   
+      function initialize() {
+      // FIND YOUR LATITUDE & LONGITUDE  -> http://itouchmap.com/latlong.html
+          var myLatlng = new google.maps.LatLng(45.4383563,10.991657799999984);
+          var myOptions = {
+              zoom: 15,
+              center: myLatlng,
+              mapTypeId: google.maps.MapTypeId.ROADMAP        }
+           
+          var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+           
+          var contentString = "";
+           
+          var infowindow = new google.maps.InfoWindow({
+              content: contentString
+          });
+           
+          var marker = new google.maps.Marker({
+              position: myLatlng,
+              map: map,
+              title: "Zero Theme"
+          });
+          google.maps.event.addListener(marker, 'click', function() {
+              infowindow.open(map,marker);
+          });
+      }
+  </script>
+  
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="scripts/html5shiv.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+  
+</head>
+<body>
+
+	<div class="row">
+	<header>
+	
+		<div class="three columns">
+			<logo>
+				<a href="index.html" ><img src="images/logo.png" width="300" height="70"></a>
+			</logo>
+		</div>
+		
+		<div class="six columns">
+			<ul class="nav-bar">
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="portfolio.html">Our Work</a></li>
+			  
+			  <li><a href="about.html">About</a></li>
+			  <li class="active"><a href="contact.html">Contact</a></li>
+			</ul>		
+		</div>
+		
+	</header>
+	</div>
+	
+	
+	
+<contact>
+	<div class="row">
+		<div class="twelve columns">
+			<div class="title">Contact us</div>
+			<div class="title2">We love discussing new ideas.</div>
+		</div>
+	</div>
+	
+
+	
+	<div class="row">
+		<div class="five columns">
+			<h5>We love discussing new ideas.</h5>
+			<p>If you're ready to get certified, we're ready to outfit you for immersive marketing. 
+			Simply fill out the adjacent contact form and we'll follow up accordingly. 
+			Your contact info will be kept confidential.  
+			OffStreetStudios does not believe in unwanted solicitations - we hope that respect is reciprocated. Thanks!</p>
+		</div>
+		<div class="four columns">
+			
+			<h2>Your Message Has Been Sent!!</h3>
+ 	
+		</div>
+		<div class="three columns">
+			<h5>Contact Info</h5>
+			<p>Pathankot, Punjab<br>
+			India<br>
+			Phone: +919988349495<br><br>
+			Website: <a href="http://offstreetstudios.com">OffStreetStudios.com</a><br>
+			Email: contact@offstreetstudios.com<br><br>
+			Twitter: <a href="#">OffStreetStudios</a><br>
+			Facebook: <a href="http://fb.me/offstreetstudios">OffStreetStudios</a><br>
+			Instagram:<br>			
+			</p>
+		</div>
+	</div>
+</contact>
+
+	<footer>
+		<div class="row">
+			<div class="three columns">
+				<h3>Instagram</h3>
+				<iframe src="http://snapwidget.com/in/?u=cmRtbWVodGF8aW58MTEwfDJ8Mnx8bm98NXxmYWRlSW58b25TdGFydHxubw==&v=51113" title="Instagram Widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:230px; height:230px"></iframe>
+			</div>
+			<div class="four columns">
+								<h3>Like Us</h3>
+			<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Foffstreetstudios&amp;width=200&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=false&amp;appId=445279888871226" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:290px;" allowTransparency="true"></iframe>
+	</div>
+			<div class="three columns">
+				<a class="twitter-timeline" href="https://twitter.com/rdmMehta" data-widget-id="430565133908054018">Tweets by @rdmMehta</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+			<div class="two columns">
+				<div class="logofoot"><a href="index.html" ><img src="images/logo.png" width="86" height="38"></a></div>
+			</div>
+		</div>
+	
+	<div class="row">
+	    <div class="eight columns">
+	    </div>
+	    <div class="four columns">
+			<div class="copyright">Copyright © 2012-2014 by <a href="http://offstreetstudios.com">OffStreetStudios</a></div>
+	    </div>
+	</footer>
+
+
+  
+  <!-- Included JS Files (Compressed) -->
+  <script src="javascripts/foundation.min.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="javascripts/app.js"></script>
+  
+  <script type="text/javascript"> 
+     $(window).load(function() {
+         $('#featuredContent').orbit({ fluid: '16x6' });
+     });
+  </script>
+  
+</body>
+</html>
